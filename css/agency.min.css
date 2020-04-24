@@ -6,7 +6,8 @@
 
 body {
     overflow-x: hidden;
-    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #f1ebebcf;
 }
 
 p {
@@ -54,7 +55,7 @@ section h3.section-subheading {
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
-@media (min-width:480px) {
+@media (min-width:350px) {
     section {
         padding: 150px 0
     }
@@ -211,7 +212,7 @@ header.masthead .intro-text .intro-heading {
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
-@media (min-width:480px) {
+@media (min-width:320px) {
     header.masthead .intro-text {
         padding-top: 300px;
         padding-bottom: 200px
@@ -702,4 +703,9 @@ ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
     background-color: #fed136
+}
+
+.center-div {
+    max-width: 500px;
+    margin: auto;
 }
